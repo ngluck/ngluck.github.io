@@ -86,10 +86,7 @@
 								<li>
 									<a href="#contact">Contact</a>
 								</li>
-								
-								<li>
-									<a href="#testing">Testing</a>
-								</li>
+
 								<!-- 	You can add another button to your navigation menu by adding
 									another List Item with a link inside of it.
 								-->
@@ -160,7 +157,10 @@
 							
 							<p>	<b>Modeling the Galaxy-Halo Connection</b> <br> Developing an AI-accelerated Galaxy-Halo model for multiwavelength cosmological surveys
 								using N-body simulations and semi-analytical simulations modeling the evolution of the dark matter halos surrounding galaxies and other substructure.
-								The aim is to obtain a computationally efficient, physically motivated model of the evolution of both baryonic and dark matter.
+								The aim is to obtain a computationally efficient, physically motivated model of the evolution of both baryonic and dark matter. This is done
+								via JAX methods, allowing for a differentiable pipeline to be implemented within the pre-existing SatGen framework. With an updated version
+								of SatGen, we are able to expand the "box size" of the simulation, which is the only way to add physical constraints from upcoming
+								multiwavelength observational surveys.
 								
 							</p>
 							
@@ -290,55 +290,7 @@
 							</ul>
 						</article>
 						
-						<article id="testing">
-						
-							<fieldset class="slideshow">
-								<!--Slide 1-->
-								<input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
-								<div class="slide">
-									<div class="slide__html">
-									<!--for image background, use .slide_html-->
-									</div>
-									<div class="slide__content">
-										<h1>Project 1</h1>
-										<p>A subtitle or short description</p>
-										<p>Another description</p>
-										<ul>
-											<li>Point 1</li>
-											<li>Point 2</li>
-											<li>Point 3</li>
-										</ul>
-										<p>Use the tabs below to change slides</p>
-										<p><strong style="color: #0F0">NEW:</strong> Arrow keys work too after your first selection.</p>
-										<p>Et voila.</p>
-									</div>
-								</div>
-						
-								<!--Slide 2-->
-								<input type="radio" id="slideCheckbox2" name="slide" checked autofocus></input>
-								<div class="slide">
-									<div class="slide__html">
-									<!--for image background, use .slide_html-->
-									</div>
-									<div class="slide__content">
-										<h1>Project 1</h1>
-										<p>A subtitle or short description</p>
-										<p>Another description</p>
-										<ul>
-											<li>Point 1</li>
-											<li>Point 2</li>
-											<li>Point 3</li>
-										</ul>
-									</div>
-								</div>	
-								
-								<nav>
-									
-									<!-- Add slide labels here-->
-									<label class="slide-button" for="slideCheckbox1">Project 1</label>
-									<label class="slide-button" for="slideCheckbox2">Project 2</label>
-						
-						</article>
+				
 						
 					</div>
 
