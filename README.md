@@ -1,2 +1,2 @@
 # ngluck.github.io
-hello
+Welcome to my semi-regularly updated research page!
