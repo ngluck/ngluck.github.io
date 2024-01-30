@@ -1651,11 +1651,6 @@ button {
   box-sizing: border-box;
 }
 
-body_gallery {
-  margin: 0;
-  font-family: Arial;
-}
-
 .header_gallery {
   text-align: center;
   padding: 32px;
