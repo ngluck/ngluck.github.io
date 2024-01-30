@@ -1646,6 +1646,7 @@ button {
 		opacity: 0;
 	}
 
+/*
 <style>
 * {
   box-sizing: border-box;
@@ -1662,7 +1663,6 @@ button {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column_gallery {
   flex: 25%;
   max-width: 25%;
@@ -1674,19 +1674,19 @@ button {
   vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
+@media (max-width: 80px) {
   .column_gallery {
     flex: 50%;
     max-width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
+
+@media (max-width: 60px) {
   .column_gallery {
     flex: 100%;
     max-width: 100%;
   }
 }
 </style>
+*/
