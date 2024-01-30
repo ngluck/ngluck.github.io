@@ -1693,3 +1693,19 @@ button {
 figure_w_cap{
     display: inline-block;
 }
+
+<style>
+figure_v2 {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption_v2 {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: right;
+}
+</style>
