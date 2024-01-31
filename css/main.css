@@ -1698,6 +1698,7 @@ figure_w_cap{
 figure_v2 {
   border: 1px #cccccc solid;
   padding: 4px;
+  float: left;
   margin: auto;
 }
 
@@ -1706,6 +1707,7 @@ figcaption_v2 {
   color: white;
   font-style: italic;
   padding: 2px;
-  text-align: right;
+  text-align: justify;
 }
 </style>
+
