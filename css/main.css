@@ -1697,9 +1697,8 @@ figure_w_cap{
 <style>
 figure_v2 {
   border: 1px #cccccc solid;
-  padding: 4px;
   float: left;
-  margin: auto;
+  margin: 4px;
 }
 
 figcaption_v2 {
