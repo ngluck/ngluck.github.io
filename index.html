@@ -26,6 +26,27 @@
 			available. 
 		-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.dropdown {
+				cursor: pointer;
+				display: flex;
+				align-items: center;
+			}
+			.dropdown-content {
+				display: none;
+				margin-left: 20px;
+			}
+			.arrow {
+				margin-left: 5px;
+				transition: transform 0.3s ease;
+			}
+			.dropdown.active .dropdown-content {
+				display: block;
+			}
+			.dropdown.active .arrow {
+				transform: rotate(90deg);
+			}
+		</style>
 	</head>
 	<!-- The body is the location where your site's content will go -->
 	<body class="is-preload">
@@ -171,15 +192,20 @@
 								<img src="images/maxresdefault.jpg" alt=""/>
 							</span>
 
-							<p>
-    							<b>Modeling the Galaxy-Halo Connection:</b> Developing an AI-accelerated Galaxy-Halo model 
-									for multiwavelength cosmological surveys using N-body simulations and semi-analytical 
-									simulations modeling the evolution of the dark matter halos surrounding galaxies and other substructure.
-									The aim is to obtain a computationally efficient, physically motivated model of the evolution of both baryonic
-									and dark matter. This is done via JAX auto-differentiation methods, allowing for a fully differentiable model
-									of the gas within dark matter halos, as an update to the original Baryon Pasting (BP) code. We also include dependencies on
-									mass accretion history, concentration history, AGN feedback, and cosmology (via Abacus-Summit).
-							</p>
+							<div class="dropdown">
+							<b>Modeling the Galaxy-Halo Connection:</b>
+							<span class="arrow">&#9654;</span>
+							</div>
+							<div class="dropdown-content">
+								<p>
+								Developing an AI-accelerated Galaxy-Halo model for multiwavelength cosmological surveys using N-body simulations and semi-analytical 
+								simulations modeling the evolution of the dark matter halos surrounding galaxies and other substructure. The aim is to obtain a 
+								computationally efficient, physically motivated model of the evolution of both baryonic and dark matter. This is done via JAX 
+								auto-differentiation methods, allowing for a fully differentiable model of the gas within dark matter halos, as an update to the 
+								original Baryon Pasting (BP) code. We also include dependencies on mass accretion history, concentration history, AGN feedback, 
+								and cosmology (via Abacus-Summit).
+								</p>
+							</div>
 
 						
 							
