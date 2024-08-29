@@ -52,7 +52,7 @@
 									a short line about yourself.
 								-->
 								<p>
-									Physics PhD Student <br> Yale University
+									Physics PhD Candidate <br> Yale University
 								</p>
 								<!-- Here is a paragraph where you can put a link to your CV -->
 								<p>
@@ -76,11 +76,11 @@
 									<a href="#research">Research</a>
 								</li>
 								<li>
-									<a href="#publications">Publications</a>
+									<a href="#teaching">Teaching</a>
 								</li>
 								
 								<li>
-									<a href="#blog">Blog</a>
+									<a href="#resources">Resources</a>
 								</li>
 
 								<li>
@@ -115,7 +115,7 @@
 								
 								<!-- Items contained in <b> tags are bolded! -->
 								<b>Education:</b><br> 
-								3rd Year Physics PhD Student, Yale University <br>
+								Physics PhD Candidate, Yale University <br>
 								BS Physics and Astronomy, Stony Brook University
 								
 								
@@ -146,7 +146,7 @@
 							</p>
 							
 							<p>
-								<b>Fun Fact:</b> I speak English, Hebrew, Italian, some Mandarin, and am learning Russian!
+								<b>Fun Fact:</b> I speak English, Hebrew, Italian, some Mandarin, and am learning Russian and Romanian!
 							</p>
 							<p> 
 								<b>Email:</b> naomi.gluck@yale.edu <br>
@@ -172,31 +172,19 @@
 							</span>
 
 							<p>
-    							<b>Modeling the Galaxy-Halo Connection:</b> Developing an AI-accelerated Galaxy-Halo model 
-									for multiwavelength cosmological surveys using N-body simulations and semi-analytical 
-									simulations modeling the evolution of the dark matter halos surrounding galaxies and other substructure.
-									The aim is to obtain a computationally efficient, physically motivated model of the evolution of both baryonic
+    							<b>Modeling the Halo-Gas-Galaxy Connection:</b> We are developing a computationally efficient, physically motivated model of the evolution of both baryonic
 									and dark matter. This is done via JAX auto-differentiation methods, allowing for a fully differentiable model
-									of the gas within dark matter halos, as an update to the original Baryon Pasting (BP) code. We also include dependencies on
-									mass accretion history, concentration history, AGN feedback, and cosmology (via Abacus-Summit).
+									of the gas within dark matter halos, as an update to the original Baryon Pasting code. We also include dependencies on
+									mass accretion history, concentration history, and AGN feedback. (Gluck et al. in prep)
 							</p>
 
 						
 							
 							<p>
-								<b>Machine Learning the Circum-Galactic Medium with CAMELS</b><br> The circum-galactic medium (CGM) can feasibly be mapped by 
-								multiwavelength surveys covering broad swaths of the sky. With multiple large datasets becoming available in the near future, 
-								we develop a likelihood-free Deep Learning technique using convolutional neural networks (CNNs) to infer broad-scale physical 
-								properties of a galaxy’s CGM and its halo mass for the first time. Using CAMELS (Cosmology and Astrophysics with MachinE Learning 
-								Simulations) data, including IllustrisTNG, SIMBA, and Astrid models, we train CNNs on Soft X-ray and 21-cm (HI) radio 2D maps to 
-								trace hot and cool gas, respectively, around galaxies, groups, and clusters. Our CNNs offer the unique ability to train and test on 
-								“multifield” datasets comprised of both HI and X-ray maps, providing complementary information about physical CGM properties and 
-								improved inferences. Applying eRASS:4 survey limits shows that X-ray is not powerful enough to infer individual halos with logarithmic masses 
-								 less than 12.5. The multifield improves the inference for all halo masses. Generally, the CNN trained and tested on Astrid (SIMBA) can most 
-								(least) accurately infer CGM properties. Cross-simulation analysis – training on one galaxy formation model and testing on another – highlights 
-								the challenges of developing CNNs trained on a single model to marginalize over astrophysical uncertainties and perform robust 
-								inferences on real data. The next crucial step in improving the resulting inferences on the physical properties of CGM depends on our ability 
-								to interpret these deep-learning models. (See <a href="https://arxiv.org/pdf/2309.07912.pdf">Gluck et al. 2023 </a> for additional details.)
+								<b>Machine Learning the Circum-Galactic Medium with CAMELS</b><br> We develop a likelihood-free deep learning technique using convolutional neural networks (CNNs) 
+								to infer broad-scale physical properties of a galaxy's circum-galactic medium (CGM) and halo mass from multiwavelength datasets. 
+								Our CNNs, trained on CAMELS data, offer improved inferences by integrating both HI and X-ray maps, providing a novel approach 
+								to mapping the CGM across different galaxy formation models. (See <a href="https://arxiv.org/pdf/2309.07912.pdf">Gluck et al. 2023 </a> for additional details.)
 							</p>
 
 							<hr style="border:2px solid white">
@@ -220,7 +208,7 @@
 								<b>Technion Israel Institute of Technology - The Red Supergiant Problem</b><br>The Red Supergiant problem discusses the inconsistencies of observable supernovae, 
 								as there is a gap between which progenitor stars lead to observable supernova explosions. Using MESA (Modules for Experiments in Stellar Astrophysics) I  
 								simulated different progenitor stars of varying ZAMS (zero age main sequence) and wind and mass loss parameters. These mass loss parameters are key to understanding which stars will
-								be obscured by dust by the time they explode as core collapse supernovae.
+								be obscured by dust by the time they explode as core collapse supernovae. (See <a href="https://academic.oup.com/mnras/article-abstract/494/4/5230/5823752">Gorman, Gluck, and Soker 2020 </a> for additional details.)
 								
 							
 							</p>
@@ -247,38 +235,40 @@
 						</article>
 
 						<!-- Here is the "Community" card. -->
-						<article id="publications">
-							<h2 class="major">Publications</h2>
+						<article id="teaching">
+							<h2 class="major">Teaching</h2>
 							
 						
 
-							<h3 class="major">First Author Publications</h3>
+							<h3 class="major">Undergraduate Courses at Yale</h3>
 
 							<p>
 						 
-								1. <a href="https://arxiv.org/pdf/2309.07912.pdf"> <b>Gluck et al. 2023,</b> An Observationally Driven Multifield Approach for Probing the 
-									Circum-Galactic Medium with Convolutional Neural Networks, accepted to MNRAS </a> 
+								1. <b> PHYS 378 (Introduction to Scientific Computing and Data Science): </b> Spring 2023 (Graduate Teaching Fellow), 
+								Fall 2023 (Guest Instructor), Fall 2024 (Associate in Teaching Fellowship awarded, Co-Instructor)
+								2. <b>PHYS/ASTR 343 (Gravity, Astrophysics, and Cosmology): </b> Fall 2022
+								3. <b> PHYS 120 (Quandum Physics and Beyond):</b> Spring 2022
+								4. <b>PHYS 200 (Fundamentals of Physics):</b> Fall 2021
 						       </p>
 
-							<h3 class="major">In-Prep Manuscripts</h3>
+							<h3 class="major">Research Mentorship at Yale</h3>
 
 							<p> 
-								1. <b>Gluck et al. 2024,</b> JAX-enabled Baryon Pasting Model: Impact of Halo Formation History on SZ Angular Power Spectrum, to be submitted to ApJ. <br>
-								2. Warburton, I., <b>Gluck, N.,</b> Nagai, D., Ntampaka, M., Aung, H., Bose, S., Cosmology Dependence of the Universal Mass Accretion Rate of Dark Matter Halos, to be submitted to ApJ.
+								I have mentored several undergraduate students through the Nagai Group (in Physics, Astrophysics, and Mathematics) in their research projects, including their junior and senior thesis papers,
+								and summer fellowships.
+								
 							
 							</p>
 
-							<h3 class="major">Additional Publications</h3>
+							<h3 class="major">STEM Tutoring</h3>
 
-							<p>
-								
-								1. <a href="images/staa1085.pdf"> Goffman, <b>Gluck,</b> and Soker 2020, Enhanced Mass Loss Rate During Evolution of Stars, accepted to MNRAS </a> <br>
-								2. <a href="https://galacticatmospheres.pubpub.org/pub/zrdhtddz/release/1"> Galactic Atmospheres Perspectives: A Multi-Wavelength, 
-									Multi-Model Exploration of How Feedback Disrupts Gaseous Atmospheres</a> <br>
-								3. <a href="https://galacticatmospheres.pubpub.org/pub/tqp15ozl/release/1"> Galactic Atmospheres Perspectives: Galactic Gaseous Halos: 
-									Mini-Clusters Disrupted by Feedback</a>
+							<p> 
+								1. Science Courses: Physics (regents, honors, AP 1, AP C, university-level courses), Chemistry (regents, honors, AP), Biology (regents, honors, AP)
+								2. Mathematics Courses: Geometry, Algebra/Trigonometry, Calculus (Pre, AP-AB, AP-BC), Exeter Math Curriculum 
+							
+							</p>
 
-							</p>	
+						
 
 
 							<!--
@@ -293,21 +283,13 @@
 							</p> -->
 						</article>
 
-						<article id="blog">
-							<h2 class="major">Blog</h2>
-							<span class="image main">
-								<img src="images/blog_page.jpg" alt=""/>
-							</span>
+						<article id="resources">
+							<h2 class="major">Resources</h2>
+
+							
+							
 							<p>
-								<a href="https://ngluckxx.wixsite.com/trialanderror">Trial and Error</a> <br> 
-								Click the link to learn about how to successfully get through a physics undergraduate degree 
-								(starting with what to do while you're still in high school),
-								apply to graduate programs, and what a PhD program entails as I go through mine! My goal is 
-								to share my experiences from undergrad that helped me get to where I am now, and offer some advice 
-								to those who may need it. 
-								<br> This website also offers advice on how to deal with ADHD in an academic setting, as that generally makes
-								things much more difficult. More will be added to this site as I go through graduate school, with specific fellowship information,
-								required coursework, and how to make the most of your PhD program!
+								Coming soon!
 							</p>
 						</article>
 
